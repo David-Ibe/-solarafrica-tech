@@ -2,7 +2,7 @@
 
 A modern, cloud-deployed web application for a fictional solar technology company, demonstrating cloud infrastructure and deployment expertise.
 
-## 🌟 Features
+##  Features
 
 - **Modern Web Interface**: Clean, responsive design optimized for all devices
 - **Cloud Infrastructure**: Deployed on AWS using best practices
@@ -10,7 +10,7 @@ A modern, cloud-deployed web application for a fictional solar technology compan
 - **High Availability**: Load balanced architecture for reliability
 - **Scalable Architecture**: Built to handle varying traffic loads
 
-## 🛠️ Technology Stack
+##  Technology Stack
 
 ### Frontend
 - HTML5
@@ -21,25 +21,26 @@ A modern, cloud-deployed web application for a fictional solar technology compan
 ### Infrastructure
 - **Containerization**: Docker
 - **Cloud Platform**: AWS
+- **Compute**: Amazon EC2
+- **Container Registry**: Amazon ECR
 - **Container Orchestration**: Amazon ECS (Fargate)
 - **Load Balancing**: Application Load Balancer (ALB)
 - **Networking**: VPC, Security Groups
-- **Domain**: Custom domain configuration
 
-## 🚀 Deployment Architecture
+##  Deployment Architecture
 
 ```
-[Client] → [Route 53] → [Application Load Balancer] → [ECS Fargate] → [Container]
+[Client] → [Application Load Balancer] → [ECS Fargate] → [Container]
 ```
 
-## 📋 Prerequisites
+##  Prerequisites
 
 - AWS Account with appropriate permissions
 - Docker installed locally
 - AWS CLI configured
 - Basic understanding of containerization and cloud concepts
 
-## 🔧 Setup and Deployment
+##  Setup and Deployment
 
 1. **Local Development**
    ```bash
@@ -66,7 +67,7 @@ A modern, cloud-deployed web application for a fictional solar technology compan
    # Create task definition and service using AWS Console or CLI
    ```
 
-## 🔒 Security Features
+##  Security Features
 
 - SSL/TLS encryption
 - Security groups configuration
@@ -74,14 +75,14 @@ A modern, cloud-deployed web application for a fictional solar technology compan
 - Network ACLs
 - WAF integration (optional)
 
-## 📊 Monitoring and Maintenance
+##  Monitoring and Maintenance
 
 - CloudWatch metrics
 - ECS service auto-scaling
 - Health checks
 - Log management
 
-## 🎯 Project Goals
+##  Project Goals
 
 - Demonstrate cloud deployment expertise
 - Showcase containerization skills
@@ -89,13 +90,13 @@ A modern, cloud-deployed web application for a fictional solar technology compan
 - Practice infrastructure as code
 - Follow AWS best practices
 
-## 👤 Author
+##  Author
 
 David Ibe
 - GitHub: [@David-Ibe](https://github.com/David-Ibe)
 - LinkedIn: [Your LinkedIn Profile]
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
