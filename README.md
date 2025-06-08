@@ -94,13 +94,13 @@ A modern, cloud-deployed web application for a fictional solar technology compan
 
 David Ibe
 - GitHub: [@David-Ibe](https://github.com/David-Ibe)
-- LinkedIn: [Your LinkedIn Profile]
+- LinkedIn:[ [My LinkedIn Profile]](https://www.linkedin.com/in/chimaobidavidibe/)
 
 ##  License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - AWS Documentation
 - Docker Documentation
