@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SolarAfrica Tech</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background-color: #f0f4f8;
+            color: #222;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #002b5c;
+            color: #fff;
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        header h1 {
+            font-size: 1.8rem;
+        }
+
+        nav a {
+            color: #fff;
+            margin-left: 1.5rem;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #ffc300;
+        }
+
+        .hero {
+            background: url('https://images.unsplash.com/photo-1584277265767-08b16130a1e9?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80') no-repeat center center/cover;
+            height: 90vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: #271717;
+            padding: 0 2rem;
+        }
+
+        .hero h2 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+        }
+
+        .btn {
+            display: inline-block;
+            background: #ffc300;
+            color: #000;
+            padding: 0.8rem 1.5rem;
+            text-decoration: none;
+            font-weight: 600;
+            border-radius: 8px;
+            transition: background 0.3s ease;
+            text-align: center;
+            width: 100%;
+            margin-top: 1rem;
+        }
+
+        .btn:hover {
+            background: #e6ac00;
+        }
+
+        .features, .products {
+            padding: 4rem 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .features h2, .products h2 {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 2rem;
+            color: #002b5c;
+        }
+
+        .feature-grid, .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+        }
+
+        .feature-card, .product-card {
+            background: #fff;
+            padding: 1.5rem;
+            border-radius: 12px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .feature-card:hover, .product-card:hover {
+            transform: translateY(-10px);
+        }
+
+        .feature-card h3, .product-card h3 {
+            margin-bottom: 1rem;
+            color: #002b5c;
+        }
+
+        .feature-card p, .product-card p {
+            font-size: 0.95rem;
+        }
+
+        footer {
+            background: #002b5c;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 2rem;
+            margin-top: 3rem;
+        }
+
+        @media (max-width: 768px) {
+            .hero h2 {
+                font-size: 2.2rem;
+            }
+
+            .hero p {
+                font-size: 1rem;
+            }
+
+            nav a {
+                margin-left: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>SolarAfrica Tech</h1>
+        <nav>
+            <a href="#features">Features</a>
+            <a href="#products">Products</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div>
+            <h2>Power Your Future with Solar</h2>
+            <p>Affordable, reliable, and clean energy solutions for African homes and businesses.</p>
+            <a href="#products" class="btn">Shop Now</a>
+        </div>
+    </section>
+
+    <section id="features" class="features">
+        <h2>Why Choose Us</h2>
+        <div class="feature-grid">
+            <div class="feature-card">
+                <h3>High Efficiency Panels</h3>
+                <p>Get more power output even in low-light conditions with our premium solar panels.</p>
+            </div>
+            <div class="feature-card">
+                <h3>Durable Batteries</h3>
+                <p>Long-lasting lithium batteries designed for African weather and usage patterns.</p>
+            </div>
+            <div class="feature-card">
+                <h3>Smart Inverters</h3>
+                <p>Seamlessly switch between solar, battery, and grid power with intelligent inverters.</p>
+            </div>
+            <div class="feature-card">
+                <h3>Local Support</h3>
+                <p>Our support team is based in Africa to ensure quick service and reliable maintenance.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="products" class="products">
+        <h2>Our Products</h2>
+        <div class="product-grid">
+            <div class="product-card">
+                <h3>Solar Panel 400W</h3>
+                <p>High-efficiency monocrystalline panel. Perfect for homes and small businesses. $250</p>
+                <a href="#" class="btn">Buy Now</a>
+            </div>
+            <div class="product-card">
+                <h3>12V Lithium Battery</h3>
+                <p>Deep-cycle 12V battery with 5000+ cycles. Built for African climates. $320</p>
+                <a href="#" class="btn">Buy Now</a>
+            </div>
+            <div class="product-card">
+                <h3>Hybrid Inverter 5kVA</h3>
+                <p>Smart hybrid inverter with WiFi monitoring and auto-switching. $450</p>
+                <a href="#" class="btn">Buy Now</a>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <p>&copy; 2025 SolarAfrica Tech. All rights reserved. Contact us: info@solarafrica.tech</p>
+    </footer>
+
+</body>
+</html>
